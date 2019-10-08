@@ -1,0 +1,311 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+
+#nav-bar
+{
+ postition:sticky;
+ top:0;
+ z-index:10
+}
+.navbar-brand img
+{
+	height: 100px;
+	padding-left:40px;
+}
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+	float:right;
+	text-align:left;
+}
+#nav-bar ul li a:hover{
+	color:#007bff!important;
+}
+.navbar
+{
+	background:#fff;
+	
+}
+.navbar-toggler
+{
+	border:none!important;
+}
+.nav-link
+{
+	 color: #555!important;
+	 font-weight: 600;
+	 font-size: 16px;
+}
+.carousel-item active
+{
+	height:50px;
+	width:100px;
+}
+/*---------- slider--------*/
+#slider
+{
+	width: 100%;
+	transition:0.6s;
+}
+.carousel-caption h5
+{
+	color:	#ffbf00;
+	font-size:42px;
+	align-bottom:bottom;
+}
+#about
+{
+	padding-top:50px;
+	padding-bottom:50px;
+	color:#555;
+}
+#about .btn
+{
+	margin-top:20px;
+	margin-bottom:30px;
+}
+.about-content
+{
+	padding-top:20px;
+}
+/*_______________ services------------*/
+#services
+{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/services.jpg );
+    background-size:cover;
+	background-position:centre;
+	color:#efefef1!important;
+	transition:0.8s;
+	background-attachment:fixed;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#services h1
+{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:10px;
+}
+#services h1::after
+{
+	content:'';
+	background:#efefef;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px ;
+}
+.services
+{
+	margin-top:40px;
+	
+}
+.icon
+{
+	font-size:40px;
+	margin  :20px auto;
+	padding-top:30px;
+	
+	padding:20px;
+	height:80px;
+	width:80px;
+	border:1px solid 	#ffbf00;
+	border-color: #efefef !important;
+	border-radius:50%;
+}
+#services p
+{
+	font-size: 14px;
+	margin-top: 20px;
+	color : #ccc;
+	
+}
+.services .col-md-6:hover{
+	background:#007bff;
+	cursor:pointer;
+	transition:0.7s;
+}
+.services .col-md-5:hover{
+	background:#007bff;
+	cursor:pointer;
+	transition:0.7s;
+	
+}
+/*-------------- promo--------------*/
+
+
+#registration
+{
+	background-image: linear-gradient(to bottom,#ff5722,#ff9800);
+	padding-top:50px;
+	padding-bottom:200px;
+	
+}
+#registration h1
+{
+	text-align:center;
+	color:#efefef !important;
+	padding-bottom:10px;
+}
+#registration h1:after
+{
+	content:'';
+	background:#efefef;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px ;
+}
+.Address1
+{
+
+	
+	padding-top:5px;
+	padding-bottom:20px;
+		
+}
+.Address2
+{
+	padding-top:30px;
+	padding-bottom:20px;
+	
+	
+}
+.city
+{
+	padding-top:30px;
+	padding-bottom:20px;
+	padding-left:60px;
+}
+.pin-code
+{
+	padding-top:30px;
+	padding-bottom:20px;
+	padding-left:30px;
+}
+
+.contact-info .fa
+{
+
+	margin:10px;
+	color:#007bff;
+	font-weight: bold;
+}
+.follow
+{
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.submitbutton .btn-primary
+{
+	padding-left:40px;
+}
+/*--------------------- testimonials------------------------------*/
+#testimonials{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#testimonials .row
+{    
+	margin-top:5px;
+}
+#testimonials h1
+{
+	text-align:center;
+	color:	#000000 !important;
+	padding-bottom:10px;
+}
+#testimonials h1::after
+{
+	content:'';
+	background:#000000;
+	display:block;
+	height:3px;
+	width:170px;
+	margin:20px auto 5px ;
+}
+#testimonials{
+	margin-top:30px;
+}
+.col-md-4
+{
+	margin:40px auto;
+}
+.profile
+{
+	padding:70px 50px 30px;
+	background-color:#efefef;
+}
+.user
+{
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+}
+.profile img
+{
+	top: -60px;
+	postion:absolute;
+	left: calc(50% -60px);
+	border:10px solid #fff;
+}
+.profile h3
+{
+	font-size: 20px;
+	margin-top:15px;
+	color:	#ffbf00;
+}
+blockquote::before
+{
+	content:'\93';
+	font-size:50px;
+	color:#ffbf00;
+	position:relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+}
+blockquote::after
+{
+	content:'\94';
+	font-size:50px;
+	color:#ffbf00;
+	position:relative;
+	line-height: 10px;
+	bottom: -15px;
+	left: 5px;
+}
+.profile
+{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor:pointer;
+	transition:0.5s;
+}
+/*----------footer----------*/
+#footer
+{
+	background:#333;
+	color:#fff;
+	padding:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
