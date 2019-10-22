@@ -64,9 +64,10 @@ scroll-behavior:smooth;
 }
 #about
 {
+	text-align: center;
 	padding-top:50px;
 	padding-bottom:50px;
-	color:#555;
+	color: #4a82bd;
 }
 #about .btn
 {
@@ -75,6 +76,7 @@ scroll-behavior:smooth;
 }
 .about-content
 {
+	text-align: center;
 	padding-top:20px;
 }
 /*_______________ services------------*/
@@ -125,10 +127,12 @@ scroll-behavior:smooth;
 }
 #services p
 {
-	font-size: 14px;
+	text-align: initial;
+	/* font-size: 14px; */
 	margin-top: 20px;
 	color : #ccc;
-	
+	font-size: 16px;
+	font-family: sans-serif;
 }
 .services .col-md-6:hover{
 	background:#007bff;
@@ -146,10 +150,10 @@ scroll-behavior:smooth;
 
 #registration
 {
-	background-image: linear-gradient(to bottom,#ff5722,#ff9800);
-	padding-top:50px;
-	padding-bottom:200px;
-	
+	margin: auto;
+	background-image: linear-gradient(to bottom,#ff5722,#a021bf);
+	padding-top: 42px;
+	padding-bottom: 80px;
 }
 #registration h1
 {
@@ -164,7 +168,7 @@ scroll-behavior:smooth;
 	display:block;
 	height:3px;
 	width:170px;
-	margin:20px auto 5px ;
+	margin: 2px auto 5px;
 }
 .Address1
 {
@@ -244,7 +248,7 @@ scroll-behavior:smooth;
 .profile
 {
 	padding:70px 50px 30px;
-	background-color:#efefef;
+	background-color: #4f7075;
 }
 .user
 {
