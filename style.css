@@ -259,7 +259,7 @@ scroll-behavior:smooth;
 .profile img
 {
 	top: -60px;
-	position:absolute;
+	position:relative;
 	left: calc(50% -60px);
 	border:10px solid #fff;
 }
