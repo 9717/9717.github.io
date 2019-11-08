@@ -259,8 +259,10 @@ scroll-behavior:smooth;
 .profile img
 {
 	top: -60px;
-	position:relative;
-	left: calc(50% -60px);
+	position:absolute;
+	left: calc(50%  60px);
+	left:140px;
+	
 	border:10px solid #fff;
 }
 .profile h3
